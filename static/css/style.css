@@ -280,8 +280,8 @@ nav.navigation a.button {
 /* index post list */
 #list-page {
   max-width: 580px;
-  margin: 0 auto;
-  padding: 0 24px;
+  margin: 48px auto;
+  padding: 24px;
 }
 
 #list-page .item {
