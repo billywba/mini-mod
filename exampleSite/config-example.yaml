@@ -1,4 +1,4 @@
-baseURL: https://nodejh.github.io/hugo-theme-mini
+baseURL: https://github.com/billywba/mini-mod
 languageCode: en-us
 title: Hugo
 theme: hugo-theme-mini
@@ -12,7 +12,7 @@ permalinks:
   posts: /posts/:title/
 
 googleAnalytics: UA-123-45
-disqusShortname: nodejh
+disqusShortname: billywba
 
 
 markup:
@@ -22,13 +22,11 @@ markup:
 
 
 social:
-  github: https://github.com/nodejh
-  twitter: https://twitter.com/nodejh
-  stackoverflow: https://stackoverflow.com/users/4518882/nodejh
+  github: https://github.com/billywba
 
 
 params:
-  author: nodejh
+  author: billywba
   bio: Software Engineer
   description: My Blog
   enableRSS: true
