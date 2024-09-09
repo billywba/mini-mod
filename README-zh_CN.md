@@ -1,13 +1,13 @@
 # Hugo Theme Mini
 
-[English](https://github.com/nodejh/hugo-theme-mini/tree/master/README.md) | 简体中文
+[English](https://github.com/billywba/mini-mod/tree/master/README.md) | 简体中文
 
 一个简约的响应式 Hugo 主题。
 
 ![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
 
 - [在线 Demo](https://nodejh.github.io/hugo-theme-mini)
-- [示例网站源码](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite)
+- [示例网站源码](https://github.com/billywba/mini-mod/tree/master/exampleSite)
 
 特性：
 
@@ -39,16 +39,16 @@
 
     ```yaml
     theme: 
-       - github.com/nodejh/hugo-theme-mini
+       - github.com/billywba/mini-mod
     ```
 
 ### 1.2 使用 Git Submodule 安装
 
 
-1. 在项目目录中执行下面的命令，将 hugo-theme-mini 作为 submodule：
+1. 在项目目录中执行下面的命令，将 mini-mod 作为 submodule：
 
     ```bash
-    $ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+    $ git submodule add https://github.com/billywba/mini-mod.git themes/mini-mod
     ```
 
 2. 在 `config.yaml` 中配置主题：
@@ -67,7 +67,7 @@
 
 ### 2.1 修改配置文件
 
-在 [`exampleSite`](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite) 目录中有一个 [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml) 的配置文件，你可以将其复制到你的项目根目录中，将一些配置项修改为你的配置。这些配置都可以随意修改。
+在 [`exampleSite`](https://github.com/billywba/mini-mod/tree/master/exampleSite) 目录中有一个 [`config.yaml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/config.yaml) 的配置文件，你可以将其复制到你的项目根目录中，将一些配置项修改为你的配置。这些配置都可以随意修改。
 
 
 > ⚠️ 你需要删除这行配置： `themesDir: ../../` 。
@@ -211,4 +211,4 @@ hiddenPostSummaryInHomePage: true
 
 ## License
 
-[MIT](https://github.com/nodejh/hugo-theme-mini/blob/master/LICENSE.md)
+[MIT](https://github.com/billywba/mini-mod/blob/master/LICENSE.md)

@@ -1,13 +1,13 @@
 # Hugo Theme Mini
 
-English | [简体中文](https://github.com/nodejh/hugo-theme-mini/tree/master/README-zh_CN.md)
+English | [简体中文](https://github.com/billywba/mini-mod/tree/master/README-zh_CN.md)
 
 A fast, minimalist and responsive hugo theme.
 
 ![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
 
 - [Online demo](https://nodejh.github.io/hugo-theme-mini)
-- [Example Site Source](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite)
+- [Example Site Source](https://github.com/billywba/mini-mod/tree/master/exampleSite)
 
 Features:
 
@@ -39,7 +39,7 @@ Features:
 
     ```yaml
     theme: 
-       - github.com/nodejh/hugo-theme-mini
+       - github.com/billywba/mini-mod
     ```
 
 ### 1.2 As Git Submodule
@@ -47,7 +47,7 @@ Features:
 1. Inside the folder of your Hugo site run:
 
     ```bash
-    $ git submodule add https://github.com/nodejh/hugo-theme-mini.git themes/mini
+    $ git submodule add https://github.com/billywba/mini-mod.git themes/mini
     ```
 
 2. Add the theme's directory to your `config.yaml`:
@@ -66,7 +66,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### 2.1 The config file
 
-Take a look inside the [`exampleSite`](https://github.com/nodejh/hugo-theme-mini/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml). To use it, copy the [`config.yaml`](https://github.com/nodejh/hugo-theme-mini/blob/master/exampleSite/config.yaml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`exampleSite`](https://github.com/billywba/mini-mod/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.yaml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/config.yaml). To use it, copy the [`config.yaml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/config.yaml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 > ⚠️ You may need to delete the line: `themesDir: ../../` 
 
@@ -210,4 +210,4 @@ hiddenPostSummaryInHomePage: true
 
 ## License
 
-[MIT](https://github.com/nodejh/hugo-theme-mini/blob/master/LICENSE.md)
+[MIT](https://github.com/billywba/mini-mod/blob/master/LICENSE.md)
