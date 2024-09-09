@@ -10,3 +10,8 @@ min_version = "0.1.0"
 [author]
     name = "billywba"
     homepage = "https://github.com/billywba"
+
+[original]
+    name = "nodejh"
+    homepage = "https://github.com/nodejh"
+    repo = "https://github.com/nodejh/hugo-theme-mini"
