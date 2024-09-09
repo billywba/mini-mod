@@ -532,3 +532,51 @@ nav.navigation a.button {
   top: 1px;
   color: #bbb;
 }
+
+/* Alerts */
+:root {
+  --default: #fafafa;
+  --alert-blue-accent: #1f6feb;
+  --alert-green-accent: #238636;
+  --alert-purple-accent: #8957e5;
+  --alert-yellow-accent: #e3b341;
+  --alert-red-accent: #da3633;
+}
+
+.alert .alert-heading {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1;
+  border-left: .25em solid var(--default);
+}
+
+/* Alert variants - border and heading color */
+.alert-note {
+  --alert-colour: var(--alert-blue-accent);
+}
+
+.alert-tip {
+  --alert-colour: var(--alert-green-accent);
+}
+
+.alert-important {
+  --alert-colour: var(--alert-purple-accent);
+}
+
+.alert-warning {
+  --alert-colour: var(--alert-yellow-accent);
+}
+
+.alert-caution {
+  --alert-colour: var(--alert-red-accent);
+}
+
+/* Apply the color variable for border and heading */
+.alert {
+  border-left-color: var(--alert-colour);
+}
+
+.alert .alert-heading {
+  color: var(--alert-colour);
+}
