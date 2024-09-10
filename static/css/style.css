@@ -582,7 +582,8 @@ nav.navigation a.button {
 }
 
 .alert-icon {
-  width: 15px; 
-  height: 15px; 
+  width: 15px;
+  height: 15px;
   display: inline-block;
+  fill: var(--alert-colour);
 }
