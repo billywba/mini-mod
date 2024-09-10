@@ -11,7 +11,7 @@
     <p class="alert-heading">
       {{ $iconPath := index $icons .AlertType }}
       {{ if fileExists (printf "layouts/partials/%s" $iconPath) }}
-        <span style="width: 15px; height: 15px; display: inline-block;">
+        <span class="alert-icon">
           {{ partial $iconPath (dict "fill" "#bbbbbb" "width" "15" "height" "15") }}
         </span>
       {{ else }}

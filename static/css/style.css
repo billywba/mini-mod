@@ -580,3 +580,9 @@ nav.navigation a.button {
 .alert .alert-heading {
   color: var(--alert-colour);
 }
+
+.alert-icon {
+  width: 15px; 
+  height: 15px; 
+  display: inline-block;
+}
