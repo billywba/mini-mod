@@ -543,7 +543,6 @@ nav.navigation a.button {
   --alert-red-accent: #da3633;
 }
 
-/* Apply the color variable for border and heading */
 .alert {
   border-left-color: var(--alert-colour);
 }
@@ -557,7 +556,6 @@ nav.navigation a.button {
   color: var(--alert-colour);
 }
 
-/* Alert variants - border and heading color */
 .alert-note {
   --alert-colour: var(--alert-blue-accent);
 }
@@ -580,6 +578,7 @@ nav.navigation a.button {
 
 .alert-icon {
   display: flex;
+  justify-content: center;
   width: 16px;
   height: 16px;
   margin-right: 8px;
