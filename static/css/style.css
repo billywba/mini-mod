@@ -575,6 +575,7 @@ nav.navigation a.button {
 /* Apply the color variable for border and heading */
 .alert {
   border-left-color: var(--alert-colour);
+  padding: 8px 16px;
 }
 
 .alert .alert-heading {
@@ -582,8 +583,9 @@ nav.navigation a.button {
 }
 
 .alert-icon {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   display: inline-block;
+  margin-right: 8px;
   fill: var(--alert-colour);
 }
