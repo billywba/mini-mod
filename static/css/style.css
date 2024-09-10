@@ -579,6 +579,7 @@ nav.navigation a.button {
 }
 
 .alert .alert-heading {
+  font-weight: bold;
   color: var(--alert-colour);
 }
 
