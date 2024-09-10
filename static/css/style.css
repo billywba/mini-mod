@@ -543,12 +543,18 @@ nav.navigation a.button {
   --alert-red-accent: #da3633;
 }
 
+/* Apply the color variable for border and heading */
+.alert {
+  border-left-color: var(--alert-colour);
+}
+
 .alert .alert-heading {
   display: flex;
-  font-weight: 500;
+  font-weight: bold;
   align-items: center;
   line-height: 1;
   border-left: .25em solid var(--default);
+  color: var(--alert-colour);
 }
 
 /* Alert variants - border and heading color */
@@ -572,21 +578,10 @@ nav.navigation a.button {
   --alert-colour: var(--alert-red-accent);
 }
 
-/* Apply the color variable for border and heading */
-.alert {
-  border-left-color: var(--alert-colour);
-  padding: 8px 16px;
-}
-
-.alert .alert-heading {
-  font-weight: bold;
-  color: var(--alert-colour);
-}
-
 .alert-icon {
+  display: flex;
   width: 16px;
   height: 16px;
-  display: inline-block;
   margin-right: 8px;
   fill: var(--alert-colour);
 }
