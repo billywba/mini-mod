@@ -53,6 +53,7 @@ The blockquote element represents content that is quoted from another source, op
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
 #### Blockquote with GitHub Callout
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
