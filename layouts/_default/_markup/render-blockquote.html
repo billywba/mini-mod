@@ -8,7 +8,7 @@
 
 {{ if eq .Type "alert" }}
   <blockquote class="alert alert-{{ .AlertType }}">
-    <p class="alert-heading">
+    <div class="alert-heading">
       {{ $iconPath := index $icons .AlertType }}
       {{ if fileExists (printf "layouts/partials/%s" $iconPath) }}
         <span class="alert-icon">
@@ -24,7 +24,7 @@
       {{ else }}
         {{ or (i18n .AlertType) (title .AlertType) }}
       {{ end }} 
-    </p>
+      </div>
     {{ .Text }}
   </blockquote>
 {{ else }}

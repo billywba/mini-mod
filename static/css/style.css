@@ -545,6 +545,12 @@ nav.navigation a.button {
 
 .alert {
   border-left-color: var(--alert-colour);
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.alert p {
+  margin: 0px
 }
 
 .alert .alert-heading {
@@ -554,6 +560,17 @@ nav.navigation a.button {
   line-height: 1;
   border-left: .25em solid var(--default);
   color: var(--alert-colour);
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.alert-icon {
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: var(--alert-colour);
 }
 
 .alert-note {
@@ -576,11 +593,3 @@ nav.navigation a.button {
   --alert-colour: var(--alert-red-accent);
 }
 
-.alert-icon {
-  display: flex;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  fill: var(--alert-colour);
-}
