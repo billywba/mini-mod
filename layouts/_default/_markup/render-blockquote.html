@@ -1,20 +1,29 @@
-{{ $emojis := dict
-    "caution" ":exclamation:"
-    "important" ":information_source:"
-    "note" ":information_source:"
-    "tip" ":bulb:"
-    "warning" ":information_source:"
+{{ $icons := dict
+    "note" "svgs/pen.svg"
+    "tip" "svgs/lightbulb.svg"
+    "important" "svgs/book.svg"
+    "warning" "svgs/exclamation-triangle.svg"
+    "caution" "svgs/exclamation-circle.svg"
   }}
-  
+
   {{ if eq .Type "alert" }}
     <blockquote class="alert alert-{{ .AlertType }}">
       <p class="alert-heading">
-        {{ transform.Emojify (index $emojis .AlertType) }}
+        {{ $iconPath := index $icons .AlertType }}
+        {{ if fileExists (printf "layouts/partials/%s" $iconPath) }}
+          <span style="width: 15px; height: 15px; display: inline-block;">
+            {{ partial $iconPath (dict "fill" "#bbbbbb" "width" "15" "height" "15") }}
+          </span>
+        {{ else }}
+          {{/* Fallback if icon does not exist */}}
+          {{ or (i18n .AlertType) (title .AlertType) }}
+        {{ end }}
+
         {{ with .AlertTitle }}
           {{ . }}
         {{ else }}
           {{ or (i18n .AlertType) (title .AlertType) }}
-        {{ end }}
+        {{ end }} 
       </p>
       {{ .Text }}
     </blockquote>
