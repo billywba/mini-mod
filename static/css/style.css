@@ -532,3 +532,64 @@ nav.navigation a.button {
   top: 1px;
   color: #bbb;
 }
+
+/* Alerts */
+:root {
+  --default: #fafafa;
+  --alert-blue-accent: #1f6feb;
+  --alert-green-accent: #238636;
+  --alert-purple-accent: #8957e5;
+  --alert-yellow-accent: #e3b341;
+  --alert-red-accent: #da3633;
+}
+
+.alert {
+  border-left-color: var(--alert-colour);
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.alert p {
+  margin: 0px
+}
+
+.alert .alert-heading {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  line-height: 1;
+  border-left: .25em solid var(--default);
+  color: var(--alert-colour);
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.alert-icon {
+  display: flex;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: var(--alert-colour);
+}
+
+.alert-note {
+  --alert-colour: var(--alert-blue-accent);
+}
+
+.alert-tip {
+  --alert-colour: var(--alert-green-accent);
+}
+
+.alert-important {
+  --alert-colour: var(--alert-purple-accent);
+}
+
+.alert-warning {
+  --alert-colour: var(--alert-yellow-accent);
+}
+
+.alert-caution {
+  --alert-colour: var(--alert-red-accent);
+}
+

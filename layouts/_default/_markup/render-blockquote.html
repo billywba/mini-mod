@@ -1,0 +1,34 @@
+{{ $icons := dict
+  "note" "svgs/alerts/pen.svg"
+  "tip" "svgs/alerts/info-circle.svg"
+  "important" "svgs/alerts/book.svg"
+  "warning" "svgs/alerts/exclamation-triangle.svg"
+  "caution" "svgs/alerts/exclamation-circle.svg"
+}}
+
+{{ if eq .Type "alert" }}
+  <blockquote class="alert alert-{{ .AlertType }}">
+    <div class="alert-heading">
+      {{ $iconPath := index $icons .AlertType }}
+      {{ if fileExists (printf "layouts/partials/%s" $iconPath) }}
+        <span class="alert-icon">
+          {{ partial $iconPath (dict "width" "16" "height" "16") }}
+        </span>
+      {{ else }}
+        {{/* Fallback if icon does not exist */}}
+        {{ or (i18n .AlertType) (title .AlertType) }}
+      {{ end }}
+
+      {{ with .AlertTitle }}
+        {{ . }}
+      {{ else }}
+        {{ or (i18n .AlertType) (title .AlertType) }}
+      {{ end }} 
+    </div>
+    {{ .Text }}
+  </blockquote>
+{{ else }}
+  <blockquote>
+    {{ .Text }}
+  </blockquote>
+{{ end }}
