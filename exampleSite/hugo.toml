@@ -25,3 +25,9 @@ math = false
 hiddenPostSummaryInHomePage = false
 # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
 copyright = ""
+
+# Social links in footer, support github, twitter, stackoverflow, facebook
+[social]
+github = "https://www.github.com/billywba"
+twitter = "https://www.twitter.com/billy_wbaa"
+stackoverflow = ""
