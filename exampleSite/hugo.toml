@@ -7,3 +7,21 @@ theme = "mini-mod"
 author = "Author"
 bio = "Software Engineer"
 description = "My blog"
+
+# Optional params
+# To enable RSS, set `enableRSS = true`, Default is `true`
+enableRSS = true
+# To enable comments, you may need to set `disqusShortname`
+enableComments = true
+# To enable comments, you may need to set `googleAnalytics`
+enableGoogleAnalytics = true
+# To enable table of content, set `showToc = true`, default is `false`
+showToc = true
+# To hidde powerBy message in the page footer, set `showPowerBy = false`, default is `true`
+showPowerBy = true
+# To enable math typesetting, set `math = true`, default is `false`
+math = false
+# To hide post summary in home page, set `hiddenPostSummaryInHomePage = true`, default is `false`
+hiddenPostSummaryInHomePage = false
+# Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
+copyright = ""
