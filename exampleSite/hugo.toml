@@ -26,6 +26,9 @@ hiddenPostSummaryInHomePage = false
 # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
 copyright = ""
 
+[pagination]
+  pagerSize = 10
+
 # Social links in footer, support github, twitter, stackoverflow, facebook
 [social]
 github = "https://www.github.com/billywba"
