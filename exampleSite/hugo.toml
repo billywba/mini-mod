@@ -29,6 +29,18 @@ hiddenPostSummaryInHomePage = false
 # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
 copyright = ""
 
+# Custom CSS example
+# customCSS = [
+# "https://example.com/styles/remote.css",  # Remote CSS
+# "css/local-style.css"                     # Local CSS
+# ]
+
+# Custom JS example
+# customJS = [
+#   "https://example.com/scripts/remote.js",  # Remote JS
+#   "js/local-script.js"                      # Local JS
+# ]
+
 # Social links in footer, supports: github, twitter, stackoverflow and facebook
 [params.social]
 github = "https://www.github.com/billywba"
@@ -37,8 +49,8 @@ stackoverflow = ""
 
 # Add new links
 [[params.Links]]
-  name = "Project"
-  path = "/project"
+name = "Project"
+path = "/project"
 
 # Add another link
 # [[params.Links]]
