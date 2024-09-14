@@ -35,5 +35,15 @@ github = "https://www.github.com/billywba"
 twitter = "https://www.twitter.com/billy_wbaa"
 stackoverflow = ""
 
+# Add new links
+[[params.Links]]
+  name = "Project"
+  path = "/project"
+
+# Add another link
+# [[params.Links]]
+#   name = "Test"
+#   path = "/test"
+
 [pagination]
 pagerSize = 10
