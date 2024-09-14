@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Hugo"
 theme = "mini-mod"
 
+# googleAnalytics = "your-google-analytics-id"
+# disqusShortname =  "your-disqus-shortname"
+
 [params]
 author = "Author"
 bio = "Software Engineer"
@@ -33,4 +36,4 @@ twitter = "https://www.twitter.com/billy_wbaa"
 stackoverflow = ""
 
 [pagination]
-  pagerSize = 10
+pagerSize = 10
