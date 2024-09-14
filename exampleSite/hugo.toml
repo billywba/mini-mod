@@ -12,7 +12,7 @@ bio = "Software Engineer"
 description = "My blog"
 
 # Optional params
-# To enable RSS, set `enableRSS = true`, Default is `true`
+# To enable RSS, set `enableRSS = true`, default is `true`
 enableRSS = true
 # To enable comments, you may need to set `disqusShortname`
 enableComments = true
