@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Hugo"
 theme = "mini-mod"
 
-# googleAnalytics = "your-google-analytics-id"
-# disqusShortname =  "your-disqus-shortname"
 
 [params]
 author = "Author"
@@ -16,8 +14,10 @@ description = "My blog"
 enableRSS = true
 # To enable comments, you may need to set `disqusShortname`
 enableComments = true
+# disqusShortname =  "your-disqus-shortname"
 # To enable comments, you may need to set `googleAnalytics`
 enableGoogleAnalytics = true
+# googleAnalytics = "your-google-analytics-id"
 # To enable table of content, set `showToc = true`, default is `false`
 showToc = true
 # To hidde powerBy message in the page footer, set `showPowerBy = false`, default is `true`
