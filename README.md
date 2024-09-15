@@ -35,11 +35,10 @@ Features:
     $ hugo mod init github.com/<your_user>/<your_project>
     ```
 
-2. Add the theme's repo to your `config.yaml`:
+2. Add the theme's repo to your `hugo.toml`:
 
-    ```yaml
-    theme: 
-       - github.com/billywba/mini-mod
+    ```toml
+    theme = "github.com/billywba/mini-mod"
     ```
 
 ### 1.2 As Git Submodule
@@ -50,10 +49,10 @@ Features:
     $ git submodule add https://github.com/billywba/mini-mod.git themes/mini
     ```
 
-2. Add the theme's directory to your `config.yaml`:
+2. Add the theme's directory to your `hugo.toml`:
 
-    ```yaml
-   theme: mini
+    ```toml
+   theme = "mini-mod"
     ```
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
@@ -66,19 +65,17 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### 2.1 The config file
 
-Take a look inside the [`exampleSite`](https://github.com/billywba/mini-mod/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.yaml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/config.yaml). To use it, copy the [`config.yaml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/config.yaml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
-
-> ⚠️ You may need to delete the line: `themesDir: ../../` 
+Take a look inside the [`exampleSite`](https://github.com/billywba/mini-mod/tree/master/exampleSite) folder of this theme. You'll find a file called [`hugo.toml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/hugo.toml). To use it, copy the [`hugo.toml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/hugo.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 ### 2.2 Default Content Language
 
-You can set default content language by `defaultContentLanguage`:
+You can set default content language by `languageCode`:
 
-```yaml
-defaultContentLanguage: en
+```toml
+defaultContentLanguage = "en-us"
 ```
 
-Default is `en`. Now support:
+Default is `en-us`. Now support:
 
 - `en`: English
 - `zh`: Chinese
@@ -96,9 +93,10 @@ To enable comments, add following to your config file:
 - Disqus shortname: `disqusShortname: your-disqus-shortname`
 - Enable Comment:
 
-    ```yaml
-    params:
-      enableComments: true
+    ```toml
+    [params]
+    enableComments = true
+    disqusShortname =  "your-disqus-shortname"
     ```
 
 ### 2.4 Google Analytics
@@ -108,9 +106,10 @@ To enable google analytics, add following to your config file:
 - Google Analytics ID: `googleAnalytics: your-google-analytics-id`
 - Enable Google Analytics:
 
-    ```yaml
-    params:
-      enableGoogleAnalytics: true
+    ```toml
+    [params]
+    enableGoogleAnalytics = true
+    googleAnalytics = "your-google-analytics-id"
     ```
 
 ### 2.5 Logo and favicon
@@ -159,8 +158,9 @@ To enable table of content, you could set `showToc` to `true`.
 
 For example:
 
-```yaml
-showToc: true
+```toml
+[params]
+showToc = true
 ```
 
 ### 3.2 Disable Comments on a single post
@@ -182,13 +182,17 @@ You can put your custom css and js files to `static` directory, or use remote cs
 
 For example:
 
-```yaml
-customCSS:
-  - css/custom.css # local css in `static/css/custom.css`
-  - https://example.com/custom.css # remote css
-customJS:
-  - js/custom.js # local js in `static/js/custom.js`
-  - https://example.com/custom.js # remote js
+```toml
+[params]
+customCSS = [
+  "https://example.com/styles/remote.css",  # Remote CSS
+  "css/local-style.css"                     # Local CSS
+]
+
+customJS = [
+  "https://example.com/scripts/remote.js",  # Remote JS
+  "js/local-script.js"                      # Local JS
+]
 ```
 
 ### 3.4 Math Typesetting
@@ -204,8 +208,9 @@ To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage`
 
 For example:
 
-```yaml
-hiddenPostSummaryInHomePage: true
+```toml
+[params]
+hiddenPostSummaryInHomePage = true
 ```
 
 ## License
