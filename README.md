@@ -23,7 +23,8 @@ Features:
 
 ### 1.1 As a Hugo Module (recommended)
 
-> ⚠️ If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
+> [!WARNING] 
+> If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
 > ```
 > $ go version
 > ```
