@@ -18,7 +18,7 @@ Features:
 
 ## 1. Installation
 
-### 1.1 As a Hugo Module (recommended)
+### 1.1 As a Hugo Module (Recommended)
 
 > [!WARNING]
 > If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
@@ -41,7 +41,7 @@ Features:
    theme = "github.com/billywba/mini-mod"
    ```
 
-### 1.2 As Git Submodule
+### 1.2 As a Git Submodule
 
 1. Inside the folder of your Hugo site run:
 
@@ -57,11 +57,11 @@ Features:
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
-## 2. Getting started
+## 2. Getting Started
 
 After installing the theme successfully it requires a few more steps to get your site running.
 
-### 2.1 The config file
+### 2.1 The Config File
 
 Take a look inside the [`exampleSite`](https://github.com/billywba/mini-mod/tree/master/exampleSite) folder of this theme. You'll find a file called [`hugo.toml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/hugo.toml). To use it, copy the [`hugo.toml`](https://github.com/billywba/mini-mod/blob/master/exampleSite/hugo.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
@@ -84,7 +84,7 @@ Default is `en-us`. Now support:
 
 More about multiple languages: [Multilingual Mode](https://gohugo.io/content-management/multilingual/).
 
-### 2.3 Add Comments
+### 2.3 Enabling Comments
 
 To enable comments, add following to your config file:
 
@@ -97,7 +97,7 @@ To enable comments, add following to your config file:
   disqusShortname =  "your-disqus-shortname"
   ```
 
-### 2.4 Google Analytics
+### 2.4 Enabling Google Analytics
 
 To enable google analytics, add following to your config file:
 
@@ -110,7 +110,7 @@ To enable google analytics, add following to your config file:
   googleAnalytics = "your-google-analytics-id"
   ```
 
-### 2.5 Logo and favicon
+### 2.5 Logo and Favicon
 
 You can replace the log in the top of each page and favicon with your own images. To do that put your own logo and favicon into the `images` directory of your website static directory, then named them `avatar.png` and `favicon.ico`. For example:
 
@@ -122,7 +122,7 @@ You can replace the log in the top of each page and favicon with your own images
     └── favicon.ico
 ```
 
-### 2.6 Nearly finished
+### 2.6 Nearly Finished
 
 In order to see your site in action, run Hugo's built-in local server.
 
@@ -149,9 +149,9 @@ hugo
 
 ## 3. Optional Configuration
 
-### 3.1 Table of Content
+### 3.1 Table of Contents
 
-To enable table of content, you could set `showToc` to `true`.
+To enable table of contents, you could set `showToc` to `true`.
 
 For example:
 
@@ -160,7 +160,7 @@ For example:
 showToc = true
 ```
 
-### 3.2 Disable Comments on a single post
+### 3.2 Disable Comments on a Single Post
 
 You can set `enableComments` to `false` in front matter to disable disqus comments on a single post.
 
