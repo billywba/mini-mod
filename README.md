@@ -2,6 +2,9 @@
 
 A fast, minimalist and responsive hugo theme.
 
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.134.1&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.134.1)
+[![GitHub](https://img.shields.io/github/license/billywba/mini-mod)](https://github.com/billywba/mini-mod/blob/master/LICENSE)
+
 ![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
 
 - [Online demo](https://nodejh.github.io/hugo-theme-mini)
