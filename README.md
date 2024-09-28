@@ -61,8 +61,7 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## 2. Getting started
 
-After installing the theme successfully it requires a just a few more steps to get your site running.
-
+After installing the theme successfully it requires a few more steps to get your site running.
 
 ### 2.1 The config file
 
@@ -137,7 +136,7 @@ Now enter http://localhost:1313 in the address bar of your browser.
 
 ### 2.7 Production
 
-To run in production (e.g. to have Google Analytics show up), run HUGO_ENV=production before your build command. For example:
+To run in production (e.g. to have Google Analytics show up), run `HUGO_ENV=production` before your build command. For example:
 
 ```bash
 HUGO_ENV=production hugo
