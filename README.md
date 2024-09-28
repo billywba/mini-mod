@@ -142,7 +142,7 @@ To run in production (e.g. to have Google Analytics show up), run `HUGO_ENV=prod
 HUGO_ENV=production
 ```
 
-Note: The above command will not work on Windows. If you are running a Windows OS, use the below command:
+Note: The above command will not work on Windows. If you are running Windows, use the below command:
 
 ```bash
 set HUGO_ENV=production
