@@ -18,6 +18,10 @@ Features:
 
 ## 1. Installation
 
+Hugo needs to be installed in order to build and compile the site. Install Hugo here: [Hugo - Installation](https://gohugo.io/installation/).
+
+The quick start guide can be found here: [Hugo - Quick Start](https://gohugo.io/getting-started/quick-start/).
+
 ### 1.1 As a Hugo Module (Recommended)
 
 > [!WARNING]
@@ -54,8 +58,6 @@ Features:
    ```toml
    theme = "mini-mod"
    ```
-
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
 ## 2. Getting Started
 
