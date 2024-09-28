@@ -1,7 +1,5 @@
 # Hugo Theme Mini
 
-English | [简体中文](https://github.com/billywba/mini-mod/tree/master/README-zh_CN.md)
-
 A fast, minimalist and responsive hugo theme.
 
 ![./images/screenshot.png](https://raw.githubusercontent.com/nodejh/hugo-theme-mini/master/images/screenshot.png)
@@ -20,10 +18,9 @@ Features:
 
 ## 1. Installation
 
-
 ### 1.1 As a Hugo Module (recommended)
 
-> [!WARNING] 
+> [!WARNING]
 > If you installed a [Hugo binary](https://gohugo.io/getting-started/installing/#binary-cross-platform), you may not have Go installed on your machine. To check if Go is installed:
 >
 > ```
