@@ -16,7 +16,7 @@ Features:
 - Responsive
 - Archive
 - Tags
-
+- Obsidian/GitHub Callouts
 
 ## 1. Installation
 
