@@ -5,7 +5,7 @@ description = "A fast, minimalist and responsive hugo theme for bloggers."
 homepage = "https://github.com/billywba/mini-mod/"
 tags = ["blog", "fast", "minimalist", "responsive", "simple", "beautiful", "tags", "pages"]
 features = ["fast", "minimalist", "responsive", "archive", "tags"]
-min_version = "0.134.0"
+min_version = "0.134.1"
 
 [author]
     name = "billywba"
